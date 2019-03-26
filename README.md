@@ -1,24 +1,25 @@
-# README
+# Actor Agency
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A repository to practice concepts covered in weeks 1 - 3 of Mod 2.
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+After cloning the repository, you can run the following commands to prepare the application:
 
-* System dependencies
+```
+$ bundle install
+$ rake db:{create,migrate}
+```
 
-* Configuration
+## Use
 
-* Database creation
+The application has 3 failing tests, your job is to make the tests pass without making changes to any test files, migrations/database, or routes.  You will be able to make all tests pass by making changes only to your controllers, models and views.
 
-* Database initialization
+## Areas of Focus
 
-* How to run the test suite
+* MVC
+* One-to-Many Relationship
+* Active Record
+* Forms
+* Nested Resource Creation
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
