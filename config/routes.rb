@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  # do not change the contents of this file
+
+  resources :agencies, only: [:show] do
+    resources :actors, only: [:new, :create]
+  end
+  
 end
